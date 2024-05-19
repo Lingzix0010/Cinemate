@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Cinemate</title>
+    <link rel="stylesheet"type="text/css"href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+  <body>
+      <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/white%20logo.png"></a>
+                <div class="nav-link" id="navlink">
+                    <i class='bx bx-menu'style="color: white"onclick="hideMenu()"></i>
+                  <ul>
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="movie.html">MOVIE</a></li>
+                      <li><a href="contact.html">CONTACT</a></li>
+                  </ul>
+                </div>
+                <i class='bx bx-menu'style="color: white" onclick="showMenu()"></i>
+            </nav>
+                <h1>Behind the website</h1>
+      </section>
+      <!-----About us contant------>
+      <section class="behind the website">
+      
+      <div class="row">
+          <div class="about-col">
+          <p>My name is Ling zi xuan. I'm student from TAR University Management Technology. I create a movie website with my friend Chiah ying yi for all the movie lover to enjoy the movie and show.We create this website is because movie is very popular have different types and many people love to watch movie. So we decide to make a website that can watch in social media then people can ecxtaly watch at everywhere anytime with friend and family. After we learn fundamental web design do some research and dicussing, we spend 2 month every day every night until we finally finish this website."Cinemate" the name of this website "Cine" is meen cinema the place for people watch movie in big screen and "mate" is people who watch movie with you together, this is why call "Cinemate".Hope you guys will enjoy!</p>
+          </div>
+          <div class="about-col"></div>
+          <img src="image/about.jpg">
+          </div>
+          
+      </section>
+      <!-----Cinemate menu------>
+      
+      <script>
+      
+          var navlink = document.getElementById("navlink");
+          function showMenu(){
+              navlink.style.right = "0";
+          }
+          function hideMenu(){
+              navlink.style.right = "-200px";
+          }
+      </script>
+      <!-----Footer------>
+      <section class="footer">
+      <h4>Learn more</h4>
+          <div class="icon">
+          <i class='bx bxl-facebook-circle'></i>
+          <i class='bx bxl-instagram'></i>
+          <i class='bx bxl-twitter'></i>
+          <i class='bx bxl-youtube'></i>
+        <p>Subscribe and like us<i class='bx bxs-like' ></i>We will give movie you want!</p>
+        </div>
+      </section>
+    </body>
+</html>

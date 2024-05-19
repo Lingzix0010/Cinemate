@@ -11,11 +11,11 @@
   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
   <body>
-      <section class="header">
+      <section class="sub-header">
             <nav>
                 <a href="index.html"><img src="image/white%20logo.png"></a>
                 <div class="nav-link" id="navlink">
-                    <i class='bx bx-menu' style="color: white"onclick="hideMenu()"></i>
+                    <i class='bx bx-menu'style="color: white"onclick="hideMenu()"></i>
                   <ul>
                       <li><a href="index.html">HOME</a></li>
                       <li><a href="about.html">ABOUT</a></li>
@@ -25,24 +25,45 @@
                 </div>
                 <i class='bx bx-menu'style="color: white" onclick="showMenu()"></i>
             </nav>
-        <div class="text-box">
-                <h1>A theater for<br>EVERYONE!</h1>
-                <p>Alwayas enjoy the movie together with your friends and family in life.</p>
-                <a href="" class="hero-btn">Play movie <i class='bx bx-play'></i></a>
-            </div>
+                <h1>Movie list</h1>
       </section>
-      <!-- movie --> 
-    <section class="movie" id="MOVIE">
-      <h2 class="heading">Movie</h2>
-        <!-- movie conatiner -->       
-        <div class="movie-container">  
-            <!-- box-1 -->    
+      <!--movie list-->
+      <div class="cotainer">
+         <form>
+          <input type="text" placeholder="search movie">
+          <button class="submit">Search</button>
+          </form>
+      </div>
+      
+      <section class="movie">
+        <div class="movie-ctg">      
+            <div class="ctg-1">
+                <button class="btn">All</button>
+                <button class="btn">Action</button>
+                <button class="btn">Adventure</button>
+                <button class="btn">Biography</button>
+                <button class="btn">Crime</button>
+                <button class="btn">Comedy</button>
+                <button class="btn">Drama</button>
+                <button class="btn">Fantasy</button>
+                <button class="btn">Historical</button>
+                <button class="btn">Horror</button>
+                <button class="btn">Musical</button>
+                <button class="btn">Sci-Fi</button>
+                <button class="btn">Animation</button>
+                <button class="btn">Thriller</button>
+                <button class="btn">Popular</button>
+            </div>
+         </div>
+      </section>
+      <div class="movie-container">
+          <!-- box-1 -->    
             <div class="box">
               <div class="box-img">
                   <li><a href="logan movie.html"><img src="image/LOGAN.jpg" alt=""></a></li>
               </div>
                <h3>Logan</h3>
-              <span>217 min | Action, Sci-fi</span>
+              <span>217 min | Action</span>
             </div>
             <!-- box-2 -->   
             <div class="box">
@@ -50,7 +71,7 @@
                <img src="image/Batman.jpg" alt="">
               </div>
                <h3>The Batman</h3>
-              <span>256 min | Action,Fantasy</span>
+              <span>256 min | Action</span>
             </div> 
             <!-- box-3 -->
             <div class="box">
@@ -58,7 +79,7 @@
                <img src="image/spider%20man%20no%20way%20home.jpg" alt="">
               </div>
                <h3>Spiderman: no way home</h3>
-              <span>228 min | Action, Adventure</span>
+              <span>228 min | Action</span>
             </div>
             <!-- box-4 -->
             <div class="box">
@@ -66,7 +87,7 @@
                <img src="image/Black%20Adam.jpg" alt="">
               </div>
                <h3>Black Adam</h3>
-              <span>205 min | Action,Sci-fi</span>
+              <span>205 min | Action</span>
             </div>
             <!-- box-5 -->   
             <div class="box">
@@ -74,22 +95,15 @@
                <img src="image/Thor.jpeg" alt="">
               </div>
                <h3>Thor: Ragnorok</h3>
-              <span>210 min | Action,Adventure</span>
+              <span>210 min | Action</span>
             </div>
-        </div>
-    </section>
-    <!-- movie --> 
-    <section class="movie" id="MOVIE">
-      <h2 class="heading">Animation</h2>
-        <!-- movie conatiner -->       
-        <div class="movie-container">  
-            <!-- box-1 -->    
+          <!-- box-1 -->    
             <div class="box">
               <div class="box-img">
                <img src="image/Demon%20slayer.jpeg" alt="">
               </div>
                <h3>Demon slayer:Mugen train</h3>
-              <span>145 min | Animation, Action, Fantasy</span>
+              <span>145 min | Animation</span>
             </div>
             <!-- box-2 -->   
             <div class="box">
@@ -105,7 +119,7 @@
                <img src="image/Jujutsu%20Kaisen%200%2022.jpeg" alt="">
               </div>
                <h3>Jujutsu Kaisen 0</h3>
-              <span>152 min | Animation, Action</span>
+              <span>152 min | Animation</span>
             </div>
             <!-- box-4 -->
             <div class="box">
@@ -113,7 +127,7 @@
                <img src="image/coco.jpg" alt="">
               </div>
                <h3>Coco</h3>
-              <span>145 min | Animation,Adventure</span>
+              <span>145 min | Animation</span>
             </div>
             <!-- box-5 -->   
             <div class="box">
@@ -123,14 +137,87 @@
                <h3>Spirited away</h3>
               <span>205 min | Animation</span>
             </div>
-        </div>
-    </section>
-      <!-- movie --> 
-    <section class="movie" id="MOVIE">
-      <h2 class="heading">Series</h2>
-        <!-- movie conatiner -->       
-        <div class="movie-container">  
-            <!-- box-1 -->    
+          <!-- box-1 -->    
+            <div class="box">
+              <div class="box-img">
+               <img src="image/Everything%20everywhere%20all%20at%20once.jpeg" alt="">
+              </div>
+               <h3>Everything everywhere all at once</h3>
+              <span>219 min | Adventure</span>
+            </div>
+            <!-- box-2 -->   
+            <div class="box">
+              <div class="box-img">
+               <img src="image/Uncharted.jpg" alt="">
+              </div>
+               <h3>Uncharted</h3>
+              <span>156 min | Adventure</span>
+            </div> 
+            <!-- box-3 -->
+            <div class="box">
+              <div class="box-img">
+               <img src="image/Jumanji.jpg" alt="">
+              </div>
+               <h3>Jumanji: welcome to the jungle</h3>
+              <span>203 min | Adventure</span>
+            </div>
+            <!-- box-4 -->
+            <div class="box">
+              <div class="box-img">
+               <img src="image/The%20jungle%20cruise.jpg" alt="">
+              </div>
+               <h3>The jungle cruise</h3>
+              <span>207 min | Adventure</span>
+            </div>
+            <!-- box-5 -->   
+            <div class="box">
+              <div class="box-img">
+               <img src="image/jurassic%20world%20dominion.jpeg" alt="">
+              </div>
+               <h3>Jurassic world: Dominion</h3>
+              <span>227 min | Adventure</span>
+            </div>
+          <!-- box-1 -->    
+            <div class="box">
+              <div class="box-img">
+               <img src="image/pitch%20perfect%203.jpeg" alt="">
+              </div>
+               <h3>Pitch perfect 3</h3>
+              <span>133 min | Comedy</span>
+            </div>
+            <!-- box-2 -->   
+            <div class="box">
+              <div class="box-img">
+               <img src="image/Johnny%20english.jpg" alt="">
+              </div>
+               <h3>Johnny English</h3>
+              <span>127 min | Comedy</span>
+            </div> 
+            <!-- box-3 -->
+            <div class="box">
+              <div class="box-img">
+               <img src="image/Blockers.jpg" alt="">
+              </div>
+               <h3>Blockers</h3>
+              <span>142 min | Comedy</span>
+            </div>
+            <!-- box-4 -->
+            <div class="box">
+              <div class="box-img">
+               <img src="image/A%20Very%20Harold%20&%20Kumar%20Christmas.jpeg" alt="">
+              </div>
+               <h3>A Very Harold and Kumar Christmas</h3>
+              <span>130 min | Comedy</span>
+            </div>
+            <!-- box-5 -->   
+            <div class="box">
+              <div class="box-img">
+               <img src="image/Goosebumps.jpeg" alt="">
+              </div>
+               <h3>Goosebumps</h3>
+              <span>143 min | Comedy</span>
+            </div>
+                     <!-- box-1 -->    
             <div class="box">
               <div class="box-img">
                <img src="image/Moving.jpg" alt="">
@@ -170,9 +257,10 @@
                <h3>Game of thrones</h3>
               <span>227 min | Adventure, Action,Fantasy</span>
             </div>
-        </div>
-    </section>
-      
+      </div>
+      <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script src="../js/main.js"></script>
       <!-----Cinemate menu------>
       
       <script>
